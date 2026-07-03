@@ -25,10 +25,10 @@ jobs:
         with:
           gradle-version: '9.3.1' 
 
-      # ⚠️ ध्यान दें: यहाँ 'com.aistudio.infinitygallery' की जगह अपने ऐप का असली पैकेज नाम डालें!
+      # यहाँ हमने पैकेज का नाम एकदम सही कर दिया है (vknqpx के साथ)
       - name: Create google-services.json
         run: |
-          echo '{"project_info":{"project_number":"1234567890","project_id":"infinity-gallery"},"client":[{"client_info":{"mobilesdk_app_id":"1:1234567890:android:abcdef","android_client_info":{"package_name":"com.aistudio.infinitygallery"}},"api_key":[{"current_key":"dummy_api_key_123456789"}]}]}' > app/google-services.json
+          echo '{"project_info":{"project_number":"1234567890","project_id":"infinity-gallery"},"client":[{"client_info":{"mobilesdk_app_id":"1:1234567890:android:abcdef","android_client_info":{"package_name":"com.aistudio.infinitygallery.vknqpx"}},"api_key":[{"current_key":"dummy_api_key_123456789"}]}]}' > app/google-services.json
 
       - name: Generate Debug Keystore
         run: |
