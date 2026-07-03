@@ -1,0 +1,6 @@
+{
+  "name": "Infinity Gallery",
+  "description": "A modern, lightweight, beautiful, privacy-focused gallery application with smart photo search and Gemini AI analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
